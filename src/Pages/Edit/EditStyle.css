@@ -1,0 +1,125 @@
+/* EditStyle.css */
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+.edit-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  width: 97%;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.detectedlist-box {
+  height: 97%;
+  width: 15%;
+  background-color: #d9d9d9;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 10px 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.edit-section {
+  flex: 1;
+  height: 97%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 0 15px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.image-counter {
+  margin-top: 1rem;
+}
+
+.carousel img {
+  pointer-events: auto;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.carousel-wrapper {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.carousel button {
+  border-radius: 50%;
+  z-index: 999;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  border: none;
+  background-color: white;
+  padding: 5px;
+  cursor: pointer;
+  position: absolute;
+}
+
+.carousel button:hover {
+  background-color: #f0f0f0;
+}
+
+.image-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
+.carousel-arrows {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-arrows > * {
+  margin: 0 5px;
+}
+
+.image-counter {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  margin: 1rem;
+}
+
+.image-counter span {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.annotation-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.zoom-slider {
+  display: flex;
+  align-items: center;
+}
+
+.zoom-slider > * {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.zoom-slider .MuiTypography-root {
+  flex-shrink: 0;
+  white-space: nowrap;
+}

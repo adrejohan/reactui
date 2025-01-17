@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+h1 {
+  font-size: 45px;
+  padding-left: 1rem;
+}
+
+.login-button {
+  background-color: #5270ff;
+  color: white;
+}
+
+label {
+  font-size: 20px;
+}
+
+label[for="rememberMe"] {
+  margin-bottom: 3rem;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.box1 {
+  height: 95%;
+  flex: 1;
+  background-image: url("./Resource/testimg.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-color: #d9d9d9; */
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 10px 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+.login-section {
+  width: 35%;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 10px 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.password-input {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.password-input input[type="password"] {
+  flex-grow: 1;
+}
+
+.password-input input[type="text"] {
+  flex-grow: 1;
+}
+
+.password-toggle-container {
+  padding-right: 1rem;
+  position: absolute;
+  overflow: hidden;
+  transform: translateY(-60%);
+}
+
+.password-toggle {
+  z-index: 1;
+}
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+}
+
+.checkbox-remember {
+  font-size: 1.5em; /* Adjust the font size to increase the checkbox size */
+}
+
+.checkbox-remember input[type="checkbox"] {
+  transform: scale(1.5);
+  margin-right: 10px;
+}
